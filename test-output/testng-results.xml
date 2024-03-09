@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29620" started-at="2024-03-09T04:57:42Z" finished-at="2024-03-09T04:58:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29620" started-at="2024-03-09T04:57:42Z" finished-at="2024-03-09T04:58:11Z">
+      <class name="com.all.LoginHRMWorkingWithExcel">
+        <test-method status="PASS" signature="ihgLogin(java.lang.String, java.lang.String)[pri:0, instance:com.all.LoginHRMWorkingWithExcel@d8355a8]" name="ihgLogin" duration-ms="9641" started-at="2024-03-09T06:57:42Z" data-provider="delhi" finished-at="2024-03-09T06:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihgLogin -->
+        <test-method status="PASS" signature="ihgLogin(java.lang.String, java.lang.String)[pri:0, instance:com.all.LoginHRMWorkingWithExcel@d8355a8]" name="ihgLogin" duration-ms="9891" started-at="2024-03-09T06:57:52Z" data-provider="delhi" finished-at="2024-03-09T06:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[krishna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihgLogin -->
+        <test-method status="PASS" signature="ihgLogin(java.lang.String, java.lang.String)[pri:0, instance:com.all.LoginHRMWorkingWithExcel@d8355a8]" name="ihgLogin" duration-ms="9491" started-at="2024-03-09T06:58:02Z" data-provider="delhi" finished-at="2024-03-09T06:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lavanya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anuradha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihgLogin -->
+      </class> <!-- com.all.LoginHRMWorkingWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50692" started-at="2024-03-03T05:21:50Z" finished-at="2024-03-03T05:22:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50692" started-at="2024-03-03T05:21:50Z" finished-at="2024-03-03T05:22:41Z">
+      <class name="com.santhi.OrangeTest">
+        <test-method status="PASS" signature="orange()[pri:0, instance:com.santhi.OrangeTest@1e67b872]" name="orange" duration-ms="24902" started-at="2024-03-03T05:22:16Z" finished-at="2024-03-03T05:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- com.santhi.OrangeTest -->
+      <class name="com.santhi.IHGTest">
+        <test-method status="PASS" signature="ihg()[pri:0, instance:com.santhi.IHGTest@5d624da6]" name="ihg" duration-ms="13659" started-at="2024-03-03T05:22:03Z" finished-at="2024-03-03T05:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihg -->
+      </class> <!-- com.santhi.IHGTest -->
+      <class name="com.santhi.FipcartTest">
+        <test-method status="PASS" signature="flipcart()[pri:0, instance:com.santhi.FipcartTest@5315b42e]" name="flipcart" duration-ms="7393" started-at="2024-03-03T05:21:50Z" finished-at="2024-03-03T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+      </class> <!-- com.santhi.FipcartTest -->
+      <class name="com.santhi.FacebookTest">
+        <test-method status="PASS" signature="fc1()[pri:0, instance:com.santhi.FacebookTest@2ef9b8bc]" name="fc1" duration-ms="4665" started-at="2024-03-03T05:21:58Z" finished-at="2024-03-03T05:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fc1 -->
+      </class> <!-- com.santhi.FacebookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="19026" started-at="2024-03-03T05:22:54Z" finished-at="2024-03-03T05:23:13Z">
+    <groups>
+      <group name="regression">
+        <method signature="OrangeTest.orange()[pri:0, instance:com.grp.OrangeTest@3c09711b]" name="orange" class="com.grp.OrangeTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="FipcartTest.flipcart()[pri:0, instance:com.grp.FipcartTest@7946e1f4]" name="flipcart" class="com.grp.FipcartTest"/>
+        <method signature="OrangeTest.orange()[pri:0, instance:com.grp.OrangeTest@3c09711b]" name="orange" class="com.grp.OrangeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="19026" started-at="2024-03-03T05:22:54Z" finished-at="2024-03-03T05:23:13Z">
+      <class name="com.grp.OrangeTest">
+        <test-method status="PASS" signature="orange()[pri:0, instance:com.grp.OrangeTest@3c09711b]" name="orange" duration-ms="11067" started-at="2024-03-03T05:23:02Z" finished-at="2024-03-03T05:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- com.grp.OrangeTest -->
+      <class name="com.grp.FipcartTest">
+        <test-method status="PASS" signature="flipcart()[pri:0, instance:com.grp.FipcartTest@7946e1f4]" name="flipcart" duration-ms="7953" started-at="2024-03-03T05:22:54Z" finished-at="2024-03-03T05:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+      </class> <!-- com.grp.FipcartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="12636" started-at="2024-03-03T05:22:41Z" finished-at="2024-03-03T05:22:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12636" started-at="2024-03-03T05:22:41Z" finished-at="2024-03-03T05:22:54Z">
+      <class name="com.all.FipcartTest">
+        <test-method status="PASS" signature="flipcart()[pri:0, instance:com.all.FipcartTest@2cb4c3ab]" name="flipcart" duration-ms="7160" started-at="2024-03-03T05:22:41Z" finished-at="2024-03-03T05:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipcart -->
+      </class> <!-- com.all.FipcartTest -->
+      <class name="com.all.FacebookTest">
+        <test-method status="PASS" signature="fc1()[pri:0, instance:com.all.FacebookTest@13c78c0b]" name="fc1" duration-ms="5469" started-at="2024-03-03T05:22:48Z" finished-at="2024-03-03T05:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fc1 -->
+      </class> <!-- com.all.FacebookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
